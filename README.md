@@ -3,12 +3,12 @@
 This repository contains my solutions to the [AdventOfCode](https://adventofcode.com) challenges.
 It's made in TypeScript using Node
 
-<!-- I am currently in the middle of adding new solutions every day, to compare with afterwards. -->
+I am currently in the middle of adding new solutions every day, to compare with afterwards.
 
-<!-- ## :warning: Disclaimer -->
-<!-- **[Because the competition is still ongoing](https://adventofcode.com/2023) please do NOT use my solutions to gain -->
-<!-- an unfair advantage on friends, coworkers or anyone else you may be in a private leaderboard with. -->
-<!-- Competing against a cheater will take away people's fun, and I don't want to be the reason for that.** -->
+## :warning: Disclaimer
+**[Because the competition is still ongoing](https://adventofcode.com/2023) please do NOT use my solutions to gain
+an unfair advantage on friends, coworkers or anyone else you may be in a private leaderboard with.
+Competing against a cheater will take away people's fun, and I don't want to be the reason for that.**
 
 ## :thinking: FAQ
 
