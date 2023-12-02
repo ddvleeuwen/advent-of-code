@@ -1,0 +1,13 @@
+# Allow only example inputs in this repo
+input/*.input
+!input/*-example.input
+
+# Disallow everything IntellIJ related
+.idea/*
+
+# Remove node_modules from version control
+node_modules
+
+# Make sure no very secret tokens get leaked!
+.env
+*.log
