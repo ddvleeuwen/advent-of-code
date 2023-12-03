@@ -20,7 +20,7 @@ export function getMultipleIndexOf(
 }
 
 export function isNum(c: string) {
-  return /\d/g.test(c);
+  return /^\d+$/g.test(c);
 }
 
 export function extractWrittenNumbers(line: string, nums: any[]) {
