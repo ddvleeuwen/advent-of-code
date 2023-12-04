@@ -4,11 +4,13 @@ import { getInput, fetchInput } from './util/input.ts';
 import Day1 from './days/2023/day1.ts';
 import Day2 from './days/2023/day2.ts';
 import Day3 from './days/2023/day3.ts';
+import Day4 from './days/2023/day4.ts';
 
 const solutions: Solution[] = [
   new Day1(),
   new Day2(),
   new Day3(),
+  new Day4(),
 ];
 
 const runSolution = async (solution) => {
