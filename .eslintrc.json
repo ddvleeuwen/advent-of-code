@@ -25,6 +25,7 @@
       "dot-notation": "off",
       "no-loop-func": "off",
       "linebreak-style": "off",
+      "max-classes-per-file": "off",
       "no-restricted-syntax": "warn",
       "@typescript-eslint/no-unused-vars": ["error"]
     }

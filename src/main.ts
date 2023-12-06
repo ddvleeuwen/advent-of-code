@@ -5,12 +5,14 @@ import Day1 from './days/2023/day1.ts';
 import Day2 from './days/2023/day2.ts';
 import Day3 from './days/2023/day3.ts';
 import Day4 from './days/2023/day4.ts';
+import Day5 from './days/2023/day5.ts';
 
 const solutions: Solution[] = [
   new Day1(),
   new Day2(),
   new Day3(),
   new Day4(),
+  new Day5(),
 ];
 
 const runSolution = async (solution) => {
