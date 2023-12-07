@@ -39,7 +39,7 @@ export default class Day5 extends Solution {
 
   humidityToLocationMap: RangeMap;
 
-  calculateSeedToLocation(seed) {
+  calculateSeedToLocation(seed: number) {
     const rangeSoil = this.seedToSoilMap.calculate(seed);
     const rangeFertilizer = this.soilToFertilizerMap.calculate(rangeSoil);
     const rangeWater = this.fertilizerToWaterMap.calculate(rangeFertilizer);

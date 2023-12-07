@@ -21,7 +21,6 @@ export default class Day4 extends Solution {
       newRes += this.getCardValue(won, lines);
     }
 
-    // test
     return newRes + 1;
   }
 

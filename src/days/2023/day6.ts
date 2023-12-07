@@ -9,12 +9,12 @@ export default class Day6 extends Solution {
   example = false;
   /* ------------------ */
 
-  getWinAmount(game: any) {
+  getWinAmount(race: any) {
     let amountWon = 0;
-    for (let ms = 0; ms < game.time + 1; ms += 1) {
-      const amount = game.time - ms;
+    for (let ms = 0; ms < race.time + 1; ms += 1) {
+      const amount = race.time - ms;
 
-      if (amount * ms > game.distance) {
+      if (amount * ms > race.distance) {
         amountWon += 1;
       }
     }
@@ -31,17 +31,17 @@ export default class Day6 extends Solution {
         .slice(1)
         .map((n) => parseInt(n, 10)));
 
-    const games = inputArrays[0]
+    const races = inputArrays[0]
       .map((value, index) => ({ time: value, distance: inputArrays[1][index] }));
 
     this.a = 1;
 
-    for (const game of games) {
-      this.a *= this.getWinAmount(game);
+    for (const race of races) {
+      this.a *= this.getWinAmount(race);
     }
 
-    const gameParts = inputParts.map((g) => g.split(':')[1].replaceAll(' ', '')).map((n) => parseInt(n, 10));
-    const game = { time: gameParts[0], distance: gameParts[1] };
-    this.b = this.getWinAmount(game);
+    const raceParts = inputParts.map((g) => g.split(':')[1].replaceAll(' ', '')).map((n) => parseInt(n, 10));
+    const race = { time: raceParts[0], distance: raceParts[1] };
+    this.b = this.getWinAmount(race);
   }
 }

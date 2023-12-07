@@ -33,12 +33,12 @@ export default class Day2 extends Solution {
       };
 
       for (const round of rounds) {
-        const balls = round.split(', ');
+        const cubes = round.split(', ');
 
-        for (const ball of balls) {
-          const ballParts = ball.split(' ');
-          const amount = parseInt(ballParts[0], 10);
-          const color = ballParts[1];
+        for (const cube of cubes) {
+          const cubeParts = cube.split(' ');
+          const amount = parseInt(cubeParts[0], 10);
+          const color = cubeParts[1];
 
           if (minCubes[color] < amount) {
             minCubes[color] = amount;
